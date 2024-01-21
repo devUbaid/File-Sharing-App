@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download | InShare - File Sharing Made Easy</title>
+    <title>Download |SnapShare - File Sharing App </title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -17,20 +17,20 @@
         <% if(locals.error){ %>
         <h4><%= locals.error %> 😏</h4>
         <% } else { %>
-        <h2>Your file is ready to download</h2>
-        <p>Link expires in 24 hours</p>
+        <h2>File is ready to Download</h2>
+        <p>Link expires in 24hrs</p>
         <div class="download__meta">
             <h4><%= fileName %></h4>
             <small><%= parseInt(fileSize / 1000) %> KB</small>
         </div>
         <div class="send-btn-container">
-            <a href="<%= downloadLink %>">Download file</a>
+            <a href="<%= downloadLink %>">Download File</a>
         </div>
         <% } %>
     </section>
 
     <!-- github fork button -->
-    <a href="https://github.com/codersgyan" target="_blank" class="github-corner" aria-label="View source on GitHub">
+    <a href="https://github.com/devUbaid" target="_blank" class="github-corner" aria-label="View source on GitHub">
         <svg width="80" height="80" viewbox="0 0 250 250"
             style="fill:#131315c9; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
